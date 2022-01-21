@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Algoritmos</title>
+</head>
+<body>
+    <h1 class="title">Algoritmos Básicos</h1> 
+    <section class="section">           
+        <div class="container">
+            <h2 class="subtitle">Converter Celsius para Fahrenheit</h2>
+            <p class="paragraph">Digite um valor em Celsius e receba o retorno em Fahrenheit:</p>
+            <input type="text" name="celsius" id="celsius">
+            <button type="submit" onClick="convertToF()">calcular</button>
+            <p id="fahrenheit">Resultado:</p>
+        </div>
+
+        <div class="container">
+            <h2 class="subtitle">Inverter uma String</h2>
+            <p class="paragraph">Escreva uma string e receba ela ao contrário:</p>
+            <input type="text" name="invertString" id="invertString">
+            <button type="submit" onClick="reverseString()">Inverter</button>
+            <p id="inverter">Resultado: </p>
+        </div>
+        <div class="container">
+            <h2 class="subtitle">Fatorar um número</h2>
+            <p class="paragraph">Digite um número para ser fatorado:</p>
+            <input type="text" name="fatorar" id="fatorar">
+            <button type="submit" onclick="fatorialize()">Fatorar</button>
+            <p id="fatorado">Resultado:</p>
+        </div>
+        <div class="container">
+            <h2 class="subtitle">Palavra mais longa de uma String</h2>
+            <p class="paragraph">Digite uma frase:</p>
+            <input type="text" name="longestWord" id="longestWord">
+            <button type="submit" onClick="findLongestWord()">Procurar</button>
+            <p id="longest">Resultado:</p>
+        </div>
+    </section>
+
+    <script src="convertToF.js"></script>
+    <script src="reverseString.js"></script>
+    <script src="fatorialize.js"></script>
+    <script src="findLongestWord.js"></script>
+</body>
+</html>
